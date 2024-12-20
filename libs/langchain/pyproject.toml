@@ -140,7 +140,7 @@ mypy-protobuf = "^3.0.0"
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
 playwright = "^1.28.0"
-setuptools = "^67.6.1"
+setuptools = ">=67.6.1,<71.0.0"
 
 [tool.poetry.group.test.dependencies.langchain-tests]
 path = "../standard-tests"
