@@ -129,7 +129,7 @@ python = ">=3.10"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-setuptools = "^67.6.1"
+setuptools = ">=67.6.1,<71.0.0"
 
 [tool.poetry.group.typing.dependencies]
 mypy = "^1.12"
